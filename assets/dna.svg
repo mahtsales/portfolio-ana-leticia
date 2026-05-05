@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- DNA Helix -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#f5b2cd" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Left strand -->
+  <path d="M 70 40 Q 80 60, 70 80 Q 60 100, 70 120 Q 80 140, 70 160" fill="none" stroke="#d9689d" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Right strand -->
+  <path d="M 130 40 Q 120 60, 130 80 Q 140 100, 130 120 Q 120 140, 130 160" fill="none" stroke="#d9689d" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Connection points -->
+  <circle cx="70" cy="50" r="4" fill="#d9689d"/>
+  <circle cx="130" cy="50" r="4" fill="#d9689d"/>
+  <circle cx="70" cy="100" r="4" fill="#d9689d"/>
+  <circle cx="130" cy="100" r="4" fill="#d9689d"/>
+  <circle cx="70" cy="150" r="4" fill="#d9689d"/>
+  <circle cx="130" cy="150" r="4" fill="#d9689d"/>
+  
+  <!-- Connection lines -->
+  <line x1="70" y1="50" x2="130" y2="50" stroke="#f5b2cd" stroke-width="2" stroke-dasharray="4"/>
+  <line x1="70" y1="100" x2="130" y2="100" stroke="#f5b2cd" stroke-width="2" stroke-dasharray="4"/>
+  <line x1="70" y1="150" x2="130" y2="150" stroke="#f5b2cd" stroke-width="2" stroke-dasharray="4"/>
+</svg>

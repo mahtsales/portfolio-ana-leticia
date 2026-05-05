@@ -200,6 +200,24 @@ a {
   border-radius: 32px;
   box-shadow: var(--shadow);
   padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-decorative {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  display: flex;
+  gap: 1rem;
+  opacity: 0.12;
+  z-index: 0;
+}
+
+.deco-icon {
+  width: 140px;
+  height: 140px;
+  filter: drop-shadow(0 2px 8px rgba(217,104,157,0.1));
 }
 
 .card-head {
@@ -344,6 +362,17 @@ a {
   overflow: hidden;
   background: linear-gradient(180deg, rgba(245,178,205,0.22), rgba(217,104,157,0.08));
   border: 1px solid rgba(217,104,157,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image-svg {
+  width: 180px;
+  height: 180px;
+  opacity: 0.8;
+  z-index: 2;
+  position: relative;
 }
 
 .image-card::before {
@@ -394,6 +423,17 @@ a {
   padding: 2rem;
   box-shadow: var(--shadow);
   transition: transform 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+  opacity: 0.85;
 }
 
 .feature-card:hover,

@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Flask base -->
+  <path d="M 60 80 L 55 150 Q 55 165 70 165 L 130 165 Q 145 165 145 150 L 140 80 Z" fill="none" stroke="#d9689d" stroke-width="2.5" stroke-linejoin="round"/>
+  
+  <!-- Flask neck -->
+  <rect x="80" y="40" width="40" height="40" fill="none" stroke="#d9689d" stroke-width="2.5" rx="3"/>
+  
+  <!-- Liquid inside -->
+  <path d="M 62 120 L 57 150 Q 57 163 70 163 L 130 163 Q 143 163 143 150 L 138 120 Z" fill="#f5b2cd" opacity="0.3"/>
+  
+  <!-- Bubbles -->
+  <circle cx="75" cy="105" r="3" fill="#d9689d" opacity="0.6"/>
+  <circle cx="100" cy="110" r="2.5" fill="#d9689d" opacity="0.5"/>
+  <circle cx="125" cy="108" r="2" fill="#d9689d" opacity="0.4"/>
+  
+  <!-- Lab stopper -->
+  <rect x="85" y="25" width="30" height="15" fill="#d9689d" rx="2"/>
+  <line x1="85" y1="32" x2="115" y2="32" stroke="#fff2f7" stroke-width="1.5"/>
+  
+  <!-- Decorative rings -->
+  <circle cx="100" cy="100" r="45" fill="none" stroke="#f5b2cd" stroke-width="1" opacity="0.2" stroke-dasharray="4"/>
+</svg>

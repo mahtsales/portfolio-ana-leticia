@@ -1,0 +1,15 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Heart shape -->
+  <path d="M 100 170 C 50 130 30 100 30 75 C 30 55 45 40 60 40 C 75 40 90 50 100 65 C 110 50 125 40 140 40 C 155 40 170 55 170 75 C 170 100 150 130 100 170 Z" fill="none" stroke="#d9689d" stroke-width="2.5" stroke-linejoin="round"/>
+  
+  <!-- Inner beats -->
+  <path d="M 65 85 Q 75 75 85 85" fill="none" stroke="#f5b2cd" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 115 85 Q 125 75 135 85" fill="none" stroke="#f5b2cd" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Pulse line -->
+  <polyline points="45,120 55,115 60,130 70,100 80,125 90,110 100,130 110,100 120,125 130,110 140,130 150,120 160,125" fill="none" stroke="#d9689d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="55" cy="50" r="3" fill="#f5b2cd" opacity="0.5"/>
+  <circle cx="145" cy="55" r="2.5" fill="#f5b2cd" opacity="0.4"/>
+</svg>

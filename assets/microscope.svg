@@ -1,0 +1,27 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Microscope -->
+  <circle cx="100" cy="60" r="20" fill="none" stroke="#d9689d" stroke-width="2.5"/>
+  <circle cx="100" cy="60" r="15" fill="none" stroke="#d9689d" stroke-width="1.5"/>
+  <circle cx="100" cy="60" r="10" fill="none" stroke="#d9689d" stroke-width="1"/>
+  
+  <!-- Eyepiece tube -->
+  <rect x="95" y="35" width="10" height="15" fill="none" stroke="#d9689d" stroke-width="2.5" rx="2"/>
+  
+  <!-- Objective turret -->
+  <rect x="92" y="80" width="16" height="20" fill="none" stroke="#d9689d" stroke-width="2.5" rx="2"/>
+  <circle cx="100" cy="95" r="3" fill="#d9689d"/>
+  
+  <!-- Stage -->
+  <rect x="85" y="105" width="30" height="8" fill="none" stroke="#d9689d" stroke-width="2.5" rx="2"/>
+  
+  <!-- Focus knob -->
+  <rect x="115" y="95" width="12" height="25" fill="none" stroke="#d9689d" stroke-width="2.5" rx="3"/>
+  <circle cx="121" cy="102" r="2" fill="#d9689d"/>
+  
+  <!-- Base -->
+  <ellipse cx="100" cy="145" rx="35" ry="8" fill="none" stroke="#f5b2cd" stroke-width="2.5"/>
+  
+  <!-- Decorative dots -->
+  <circle cx="70" cy="130" r="2.5" fill="#f5b2cd" opacity="0.6"/>
+  <circle cx="130" cy="135" r="2.5" fill="#f5b2cd" opacity="0.6"/>
+</svg>
