@@ -4,10 +4,11 @@ Site estático de portfólio construído para Ana Letícia Santana, estudante de
 
 ## Arquivos
 
-- `index.html` — estrutura da página.
+- `index.html` — estrutura da página com informações do LinkedIn.
 - `styles.css` — tema rosa claro, layout profissional e responsivo.
 - `script.js` — animações de rolagem, contadores e barra de progresso.
 - `photo/profile.jpg` — foto de perfil usada no card principal.
+- `logo.svg` — logo "LS" em rosa para o cabeçalho.
 
 ## Como visualizar localmente
 
@@ -52,5 +53,6 @@ git push -u origin main
 - Tema rosa claro feminino e profissional.
 - Links reais de contato e redes sociais.
 - Foto de perfil inserida no card do hero.
-- Conteúdo adaptado à área de Biomedicina.
+- Conteúdo baseado nas informações do LinkedIn.
+- Logo "LS" criada em SVG com cores do tema.
 - Animações suaves e barra de progresso.
